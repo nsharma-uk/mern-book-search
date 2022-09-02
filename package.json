@@ -1,5 +1,5 @@
 {
-  "name": "mern-book-search",
+  "name": "mern-books-search",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -7,7 +7,6 @@
     "start": "node server/server.js",
     "start:server": "cd server && npm run watch",
     "start:client": "cd client && npm start",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
